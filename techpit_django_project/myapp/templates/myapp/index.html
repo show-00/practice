@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
+    <title>My First Blog</title>
 
     <!-- MDB icon -->
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
@@ -27,6 +27,110 @@
 </head>
 
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">My Blog</a>
+    
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars text-light"></i>
+            </button>
+    
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto d-flex flex-row mt-3 mt-lg-0">
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link active" aria-current="page" href="#!">
+                            <div>
+                                <i class="fas fa-home fa-lg mb-1"></i>
+                            </div>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link" href="#!">
+                            <div>
+                                <i class="far fa-envelope fa-lg mb-1"></i>
+                                <span class="badge rounded-pill badge-notification bg-danger">11</span>
+                            </div>
+                            Link
+                        </a>
+                    </li>
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link disabled" aria-disabled="true" href="#!">
+                            <div>
+                                <i class="far fa-envelope fa-lg mb-1"></i>
+                                <span class="badge rounded-pill badge-notification bg-warning">11</span>
+                            </div>
+                            Disabled
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown text-center mx-2 mx-lg-1">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            <div>
+                                <i class="far fa-envelope fa-lg mb-1"></i>
+                                <span class="badge rounded-pill badge-notification bg-primary">11</span>
+                            </div>
+                            Dropdown
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Left links -->
+    
+                <!-- Right links -->
+                <ul class="navbar-nav ms-auto d-flex flex-row mt-3 mt-lg-0">
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link" href="#!">
+                            <div>
+                                <i class="fas fa-bell fa-lg mb-1"></i>
+                                <span class="badge rounded-pill badge-notification bg-info">11</span>
+                            </div>
+                            Messages
+                        </a>
+                    </li>
+                    <li class="nav-item text-center mx-2 mx-lg-1">
+                        <a class="nav-link" href="#!">
+                            <div>
+                                <i class="fas fa-globe-americas fa-lg mb-1"></i>
+                                <span class="badge rounded-pill badge-notification bg-success">11</span>
+                            </div>
+                            News
+                        </a>
+                    </li>
+                </ul>
+                <!-- Right links -->
+    
+                <!-- Search form -->
+                <form class="d-flex input-group w-auto ms-lg-3 my-3 my-lg-0">
+                    <input type="search" class="form-control" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-primary" type="button" data-mdb-ripple-color="dark">
+                        Search
+                    </button>
+                </form>
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
     <!-- Start your project here-->
     <!-- Carousel wrapper -->
     <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
@@ -46,8 +150,8 @@
             <div class="carousel-item active">
                 <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg" class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h5>My First Blog</h5>
+                    <p>This is my first blog.</p>
                 </div>
             </div>
 
@@ -55,8 +159,8 @@
             <div class="carousel-item">
                 <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg" class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h5>My First Blog</h5>
+                    <p>This is my first blog.</p>
                 </div>
             </div>
 
@@ -64,8 +168,8 @@
             <div class="carousel-item">
                 <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg" class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h5>My First Blog</h5>
+                    <p>This is my first blog.</p>
                 </div>
             </div>
         </div>
